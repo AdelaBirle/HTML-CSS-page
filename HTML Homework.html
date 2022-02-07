@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+    <title>Adela</title>
+    <Style>
+        body {
+            color: rgb(240, 215, 215);
+            font-size: 17px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-radius: 20px;
+            background-size: 100% auto;
+            background-image: url("gif.gif");
+
+        }
+
+        .titles {
+            font-size: 20px;
+            background-color: rgb(121, 9, 28);
+            font-style: inherit;
+            border-radius: 20px;
+            padding: 12px;
+            color: rgb(240, 215, 215);
+
+        }
+
+        .genuri {
+            font-style: oblique;
+            font-size: 17px;
+        }
+
+        #finish {
+            color: rgb(240, 215, 215);
+            font-style: oblique;
+            font-size: 20px;
+            background-color: rgb(134 69 77);
+            border-radius: 20px;
+            padding: 12px;
+            opacity: 0.9;
+        }
+
+        .table {
+            background-color: rgb(134 69 77);
+            border-radius: 20px;
+            padding: 12px;
+            opacity: 0.9;
+            font-weight: 700px;
+        }
+
+        #link {
+            color: rgb(240, 215, 215);
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="titles">
+
+        <h1>Netflix movies on a rainy day!</h1>
+
+        <h3>Rainy day 🌧 ▶️ 🍿 Netflix day</h3>
+    </div>
+
+    <div class="genuri">
+        <p>Favorite type of movies on a rainy day, are: </p>
+        <ol type="1">
+            <li>Comedies</li>
+            <li>Aventures</li>
+            <li>Sci Fi</li>
+        </ol>
+
+        <p>Top 3 Adventures movies are:</p>
+        <ul type="square">
+            <li>Lord of the rings</li>
+            <li>Harry Potter</li>
+            <li>Star Trek</li>
+        </ul>
+
+        <h3 id="finish">Movies recomandations:</h3>
+
+        <div class="table">
+            <table border=1>
+                <tr>
+                    <th><a id="link" href="https://www.netflix.com/browse/genre/6548?bc=34399"
+                            target="_blank">Comedies</a></th>
+                    <th><a id="link" href="https://www.netflix.com/browse/genre/7442?bc=34399"
+                            target="_blank">Aventures</a></th>
+                    <th><a id="link" href="https://www.netflix.com/browse/genre/3276033?bc=34399"
+                            target="_blank">Sci-Fi</a></th>
+                </tr>
+
+                <tr>
+                    <td>The Bounty Hunter</td>
+                    <td>Lord Of The Rings</td>
+                    <td>Avangeres</td>
+                </tr>
+
+                <tr>
+                    <td>Spy/007</td>
+                    <td>Jurassic World</td>
+                    <td>Interstelar</td>
+                </tr>
+            </table>
+
+            <h3>TV series to watch</h3>
+
+            <label for="TV-series">Chouse your favorite:</label>
+            <select id="series" name="series">
+                <option value="">Game of Throns</option>
+                <option value="">Queen's Gambit</option>
+                <option value="">Suits</option>
+                <option value="">The Crown</option>
+            </select>
+
+        </div>
+        <h3>Write your recomandations</h3>
+        <textarea name="message" id="" cols="25" rows="5"></textarea>
+        <h3 class="titles">Enjoy watching🤩</h3>
+    </div>
+     
+</body>
+
+</html>
